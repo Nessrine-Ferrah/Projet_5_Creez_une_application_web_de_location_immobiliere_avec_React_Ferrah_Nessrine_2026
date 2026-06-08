@@ -1,0 +1,29 @@
+.page {
+    max-width: 1400px;
+    margin: auto;
+    padding: 3rem;
+    .error {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 139px;
+
+        .errorTitle {
+            font-size: 200px;
+            font-weight: 700;
+            color: #FF6060;
+        }
+        .errorText {
+            font-family: Montserrat,sans-serif;
+            font-size: 36px;
+            color: #FF6060;
+            font-weight: 500;
+        }
+        .ErrorLink {
+            display: inline-block;
+            color: black;
+        }
+
+    }
+}

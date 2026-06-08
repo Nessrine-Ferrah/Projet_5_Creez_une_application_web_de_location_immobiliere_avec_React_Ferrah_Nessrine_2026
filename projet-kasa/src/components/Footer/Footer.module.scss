@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: black;
+        height: 209px;
+
+        .footerLogo {
+            width: 122px;
+            height: 39px;
+        }
+
+        .footerText {
+            font-size: 24px;
+            font-weight: 500;
+            color: white;
+            font-family: Montserrat, sans-serif;
+        }
+    }
+}

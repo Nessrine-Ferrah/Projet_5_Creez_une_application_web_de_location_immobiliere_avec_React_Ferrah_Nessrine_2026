@@ -55,7 +55,7 @@ body {
 }
 
 #root {
-  width: 1126px;
+  width: 1440px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -63,6 +63,7 @@ body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
+  gap: 38px;
   box-sizing: border-box;
 }
 
@@ -109,3 +110,5 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+

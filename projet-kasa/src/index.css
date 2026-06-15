@@ -63,7 +63,7 @@ body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  gap: 38px;
+  gap: 50px;
   box-sizing: border-box;
 }
 
@@ -111,4 +111,10 @@ code {
   background: var(--code-bg);
 }
 
-
+.page {
+  width: 1240px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

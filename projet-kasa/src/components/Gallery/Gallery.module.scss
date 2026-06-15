@@ -1,0 +1,41 @@
+.containGallery {
+    border-radius: 25px;
+    background-color: #F6F6F6;
+    width: 100%;
+    max-width: 1240px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .cardLogement {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 340px;
+        max-width: 340px;
+        overflow: hidden;
+        cursor: pointer;
+        
+        .imgCard {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .titleCard {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+        }
+
+    }
+
+}

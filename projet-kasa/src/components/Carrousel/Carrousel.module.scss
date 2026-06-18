@@ -1,0 +1,47 @@
+.carrousel {
+    position: relative;
+    max-width: 1240px;
+    height: 415px;
+    width: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+
+    /* Bouton gauche */
+    .btnFlecheG {
+        z-index: 1;
+        all: unset;
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    /* Bouton droite */
+    .btnFlecheD {
+        z-index: 1;
+        all: unset;
+        position: absolute;
+        top: 40%;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    /* Image */
+    .pictureCarrousel {
+        z-index: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .compteurPage {
+        color: white;
+        position: absolute;
+        bottom: 5%;
+        right: 50%;
+        z-index: 2;
+    }
+}

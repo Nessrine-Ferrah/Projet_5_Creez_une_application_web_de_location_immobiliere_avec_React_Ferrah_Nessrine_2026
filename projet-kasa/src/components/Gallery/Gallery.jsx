@@ -14,8 +14,8 @@ const Gallery = () => {
     return (
         <div className={styles.containGallery}>
             {logements.map((logement) => (
-            <Link to={`/logement/${logement.id}`} >
-                <article key={logement.id} className={styles.cardLogement}>
+            <Link  key={logement.id} to={`/logement/${logement.id}`} >
+                <article  className={styles.cardLogement}>
                     <img
                         src={logement.cover}
                         alt={`${logement.title} cover`}

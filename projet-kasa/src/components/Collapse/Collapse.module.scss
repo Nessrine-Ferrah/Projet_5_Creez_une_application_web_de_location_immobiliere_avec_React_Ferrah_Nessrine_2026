@@ -35,6 +35,9 @@
         .buttonColl {
             all: unset;
             cursor: pointer;
+            @media (max-width : 768px) {
+                font-size: 16px;
+            }
 
             .iconButton {
                 transition: transform 0.3s ease-out;

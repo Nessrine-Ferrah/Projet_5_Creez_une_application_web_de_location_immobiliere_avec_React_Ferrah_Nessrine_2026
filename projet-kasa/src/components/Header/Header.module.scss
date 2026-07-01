@@ -2,19 +2,34 @@
     margin-top: 40px;
     margin-left: 100px;
     margin-right: 100px;
+
+    @media (max-width : 768px) {
+        margin: 19px;
+        margin-bottom: 0;
+    }
     .headerContent {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
 
         .headerLogo {
             width: 210px;
             height: 68px;
+            @media (max-width : 768px) {
+                width: 145px;
+                height: 46px;
+            }
+
         }
 
         .nav {
             display: flex;
             gap: 57px;
+            padding-left: 30px;
+            @media (max-width : 768px) {
+                gap: 26px;
+            }
 
             .navLink {
                 color: inherit;
@@ -22,6 +37,11 @@
                 font-weight: 500;
                 text-decoration: none;
                 font-size: 24px;
+                @media (max-width : 768px) {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    white-space: nowrap;
+                }
             }
             .active {
                 color: inherit;
@@ -29,6 +49,11 @@
                 font-weight: 500;
                 text-decoration: underline;
                 font-size: 24px;
+                @media (max-width : 768px) {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    white-space: nowrap;
+                }
             }
         }
 

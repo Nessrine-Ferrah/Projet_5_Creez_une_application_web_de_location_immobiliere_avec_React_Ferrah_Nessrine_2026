@@ -1,24 +1,36 @@
 .page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1240px;
+    margin: 50px 100px;
+    gap: 50px;
+    @media (max-width: 768px) {
+        gap: 27px;
+        margin: 40px 19px;
+    }
+    
   .infoLogement {
     display: flex;
     justify-content: space-between;
-    max-width: 1240px;
     width: 100%;
+        @media (max-width: 768px){
+            flex-direction: column;
+            gap: 20px;
+        }
     }
 
   .collapseContent {
     display: flex;
     justify-content: space-between;
-    max-width: 1240px;
     width: 100%;
     gap: 76px;
-    margin-top: 30px;
-
+    @media (max-width: 768px){
+        flex-direction: column;
+        gap:20px;
+        margin: 0;
+    }
     /* Chaque collapse prend 100% de sa colonne */
     > div {
       width: 100%;

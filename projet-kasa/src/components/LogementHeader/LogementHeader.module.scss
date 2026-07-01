@@ -9,23 +9,40 @@
             color: #FF6060;
             font-weight: 500;
             margin: 0;
+            @media(max-width: 768px) {
+                font-size: 18px;
+            }
         }
 
         .paragHeader {
             color: black;
+            font-size: 26px;
+            @media(max-width: 768px) {
+                font-size: 14px;
+            }
         }
     }
 
     .tagsHeader {
         display: flex;
         gap: 10px;
+        @media(max-width: 768px) {
+            flex-wrap: wrap;
+        }
         .contentTags {
             margin-top: 20px;
             border-radius: 10px;
             width: 100%;
+            max-width: 115px;
             height: 25px;
+            padding: 0px 20px;
             background-color: #FF6060;
             color: white;
+            @media(max-width: 768px) {
+                max-width: 84px;
+                font-size: 10px;
+                padding: 0;
+            }
         }
     }
 }

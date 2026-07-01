@@ -8,7 +8,9 @@ const Home = () => {
     return (
         <div className={styles.page}>
             <Banner image={imageHome} opacity={0.6}>
-                <h1 className={styles2.titleBanner}>Chez vous, partout et ailleurs</h1>
+                <h1 className={styles2.titleBanner}>
+                    Chez vous,<span className={styles2.breakTitle}> partout et ailleurs</span>
+                </h1>
             </Banner>
             <Gallery />
         </div>

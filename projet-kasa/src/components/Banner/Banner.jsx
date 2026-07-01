@@ -8,4 +8,4 @@ const Banner = ({image, children, opacity}) => {
     )
 }
 
-export default Banner
+export default Banner 
